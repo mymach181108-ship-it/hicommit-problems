@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   int n;
-  printf("Nhap mot so nguyen");
+  printf("Nhap mot so nguyen: ");
   scanf("%d" , &n);
 
   if (n%2==0) {
