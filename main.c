@@ -2,9 +2,7 @@
 
 int main() {
   long long distance, order_value;
-  if ( scanf("%lld %lld, &distance, &order_value")!=2){
-    retunr 0 ;
-  }
+  if ( scanf("%lld %lld, &distance, &order_value")!=2)
   if (distance <=0 || order_value < 0){
     printf("INVALID\n");
     return 0;
