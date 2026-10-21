@@ -13,7 +13,7 @@ int main() {
      printf("NONG\n");
   }
   else {
-    printf("RAT_NONG\n"):
+    printf("RAT_NONG\n");
   }
   return 0;
 }
