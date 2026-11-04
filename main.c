@@ -2,7 +2,7 @@
 
 int main() {
   float dtb, drl;
-  if scanf("%f %f", &dtb, &drl)!=2{
+  if scanf("%f%f", &dtb, &drl){
     return 1;
   }
   int xlhl=1;
@@ -26,4 +26,8 @@ int main() {
     xlhk =4 ; // KHONG_DAT
   }
   return 0;
+  if (xlhl == 1 && xlhk == 1){
+    printf("HOC_BONG_XUAT_SAC\n");
+  if (xlhl == 2 && xlhk == 2||xlhk == 1)|| (xlhl == 1)
+  }
 }
