@@ -2,7 +2,7 @@
 
 int main() {
   float dtb, drl;
-  if(scanf("%f %f", &dtb, &drl)!=2{
+  if scanf("%f %f", &dtb, &drl)!=2{
     return 1;
   }
   int xlhl=1;
