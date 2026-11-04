@@ -2,8 +2,7 @@
 #include <math.h>
   
 int main() {
-  int n;
-  char xeploai <= 4;
+  int n, xeploai; 
   switch(xeploai){
     case 1:
       printf ("XEP_LOAI_XUAT_SAC"); break;
