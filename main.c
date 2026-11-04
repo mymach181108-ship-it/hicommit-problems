@@ -2,7 +2,7 @@
 #include <math.h>
   
 int main() {
-  int xeploai = 4; 
+  int n=4; 
   switch(xeploai){
     case 1:
       printf ("XEP_LOAI_XUAT_SAC"); break;
