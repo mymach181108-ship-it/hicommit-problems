@@ -2,17 +2,28 @@
 
 int main() {
   float dtb, drl;
-  printf("Nhap dtb, drl", dtb, drl);
-  scanf("%d", &dtb);
-  scanf("%d", &drl);
-  if(dtb>=9.0 && drl>=90){
-    printf("HOC_BONG_XUAT_SAC");
-  }else if(8.0<=dtb<=9.0 && 80<=drl<=90 || dtb>=9.0 && 80<=drl<=90);{
-    printf("HOC_BONG_GIOI");
-  }else if(7.0<=dtb<=8.0 && 70<=drl<=80 && 80<=drl<=90 && drl>=90 || 8.0<=dtb<=9.0 && 70<=drl<=80 || dtb<=9.0 && 70<=drl<=80);{
-    printf("HOC_BONG_KHA");
-  }else if{
-    printf("KHONG_DAT");
+  if(scanf("%f %f", &dtb, &drl)!=2{
+    return 1;
+  }
+  int xlhl=1;
+  int xlhk=1;
+  if(dtb>=9.0){
+    xlhl =1 ; // XUAT_SAC
+  }else if(dtb>=80);{
+    xlhl =2 ; // GIOI
+  }else if(dtb>=7.0){
+    xlhl =3 ; // KHA
+  }else{
+    xlhl =4 ; // KHONG_DAT
+  }
+  if(drl>=90){
+    xlhk =1; // XUAT_SAC
+  }else if(drl>=80);{
+    xlhk =2 ; // GIOI
+  }else if(drl>=70);{
+    xlhk =3 ; // KHA
+  }else{
+    xlhk =4 ; // KHONG_DAT
   }
   return 0;
 }
