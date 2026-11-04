@@ -2,8 +2,9 @@
 #include <math.h>
   
 int main() {
-  int n=4; 
-  switch(xeploai){
+  int n; 
+  scanf ("%d",&code)
+  switch(code){
     case 1:
       printf ("XEP_LOAI_XUAT_SAC"); break;
     case 2:
