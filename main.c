@@ -2,8 +2,8 @@
 #include <math.h>
   
 int main() {
-  int n; 
-  scanf ("%d",&code)
+  int code ; 
+  scanf ("%d",&code;
   switch(code){
     case 1:
       printf ("XEP_LOAI_XUAT_SAC"); break;
