@@ -2,7 +2,7 @@
 #include <math.h>
   
 int main() {
-  int n;
+  int xeploai = 4;
   char xeploai;
   switch(xeploai){
     case 1:
