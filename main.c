@@ -3,8 +3,8 @@
 int main() {
   int n;
   switch(maxeploai){
-    case 1;
-      printf ("XEP_LOAI_XUAT_SAC");
+    case 1:
+      printf ("XEP_LOAI_XUAT_SAC"); break;
   }
   
   return 0;
